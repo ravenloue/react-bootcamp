@@ -17,9 +17,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Overview
 
+The goal of this project is to learn how to use React to simplify development of a website. The instructor provided HTML and CSS files that were examples of a very simple weight loss tracker. Each module in the bootcamp explained how to convert this webpage into a React website using containers, wrappers and a mock API using a local json server.
+
 ### The challenge
 
-Users should be able to:
+Following along with each module, I should learn the following:
+- How to convert a standard webpage into one that utilizes React Components
+- How to nest components together to make a dynamic webpage
+- How to create a simple mock API using json-server
 
 
 ### Screenshot
@@ -31,7 +36,10 @@ Users should be able to:
 
 ### Built with
 
-
+- React
+- JSX
+- JSON-server
+  - Mock API
 
 ### What I learned
 
