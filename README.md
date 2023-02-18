@@ -25,6 +25,8 @@ Following along with each module, I should learn the following:
 - How to convert a standard webpage into one that utilizes React Components
 - How to nest components together to make a dynamic webpage
 - How to create a simple mock API using json-server
+- Build a mini CRUD
+  - create a new user
 
 
 ### Screenshot

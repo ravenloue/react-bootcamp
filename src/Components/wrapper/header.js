@@ -16,7 +16,7 @@ function Header(){
                     {
                      // only adding this last section for a quick link for myself
                     }
-                    <li><a href="/customers">customers page</a></li>
+                    <li><a href="/register">registration</a></li>
                 </ul>
 		    </nav>
         </header>
