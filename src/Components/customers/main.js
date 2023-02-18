@@ -15,6 +15,14 @@ class Main extends Component {
         return(
             <main>
                 <h2>Customers List</h2>
+                {
+                    this.state.allCustomers.map( (customer, i) => (
+                            <div key={i} >
+                                { customer.username }&nbsp;
+                                { customer.password }
+                            </div>
+                    ))
+                }
             </main>
         )
     }
