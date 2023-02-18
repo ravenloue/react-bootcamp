@@ -5,7 +5,7 @@ function Header(){
 
     return(
         <header>
-            <img src={ chart } id="logo" />
+            <img src={ chart } id="logo" alt="weightloss logo"/>
 			<h1><a href="index.html">Skillsoft Weight Tracker</a></h1>
             <nav>
                 <ul>
