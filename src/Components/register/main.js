@@ -10,6 +10,7 @@ class Main extends Component {
             password:""
         }
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleFieldChange = this.handleFieldChange.bind(this);
     }
 
     handleSubmit(evt){
@@ -27,23 +28,31 @@ class Main extends Component {
         });
     }
 
+    handleFieldChange(evt){
+        this.setState({
+            [evt.target.name]:evt.target.value
+        });
+    }
+
     render(){
         return(
             <main>
                 <h2>
                     Register for the competition
                 </h2>
-                <form onsubmit={ this.handleSubmit }>
+                <form onSubmit={ this.handleSubmit }>
                     <div>
                         <label>
                             Name: 
-                            <input type="text" name="username" />
+                            <input type="text" name="username" 
+                                   onChange={ this.handleFieldChange } />
                         </label>
                     </div>
                     <div>
                         <label>
                             Password:
-                            <input type="text" name="password" />
+                            <input type="text" name="password"  
+                                   onChange={ this.handleFieldChange } />
                         </label>
                     </div>
                     <div>
