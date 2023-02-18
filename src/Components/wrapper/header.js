@@ -1,5 +1,5 @@
 import React from "react";
-import chart from '../chart.gif';
+import chart from './../../chart.gif';
 
 function Header(){
 
