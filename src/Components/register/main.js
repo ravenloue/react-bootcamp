@@ -25,7 +25,13 @@ class Main extends Component {
                 username: this.state.username,
                 password: this.state.password
             })
-        });
+        })
+        .then(feedback =>{
+            console.log("Post status: " + feedback.status.toString() +" "+ feedback.statusText );
+        })
+        .catch(err => {
+            console.log("Error occurred, " + err.message );
+        })
     }
 
     handleFieldChange(evt){
