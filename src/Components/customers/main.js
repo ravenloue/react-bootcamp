@@ -1,17 +1,31 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Main(){
+class Main extends Component {
 
-    return(
-        <main>
-            <h2>
-                Customers List
-            </h2>
+    constructor(props){
+        super(props);
 
-            
-        </main>
-    )
+        this.state = {
+            allCustomers: []
+        }
 
+    }
+
+    render(){
+        return(
+            <main>
+                <h2>Customers List</h2>
+            </main>
+        )
+    }
+
+    componentDidMount(){
+        fetch("http://localhost:3030/customers")
+        .then( data => data.json() )
+        .then( resolved => {
+            this.setState({ allCustomers: resolved })
+        })
+    }
 }
 
 export default Main;
