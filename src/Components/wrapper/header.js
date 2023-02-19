@@ -10,13 +10,9 @@ function Header(){
             <nav>
                 <ul>
                     <li><a href="/">home</a></li>
-                    <li><a href="enterweight.html">enter weight</a></li>
-                    <li><a href="myweights.html">my weight</a></li>
-                    <li><a href="teamweights.html">team weights</a></li>
-                    {
-                     // only adding this last section for a quick link for myself
-                    }
-                    <li><a href="/customers">customers page</a></li>
+                    <li><a href="/register">registration</a></li>
+                    <li><a href="/customers">customers</a></li>
+                    <li><a href="/login">login</a></li>
                 </ul>
 		    </nav>
         </header>

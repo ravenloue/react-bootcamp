@@ -1,19 +1,39 @@
 {
-    "customers": [
-        {
-        "username":"Axle",
-        "password":"1234"
-      },
-      {
-        "username":"Jane",
-        "password":"1234"
-      },
-      {
-        "username":"Mary",
-        "password":"1234"
-      }
-  
-    ]
-
+  "customers": [
+    {
+      "id": 1,
+      "username": "Axle",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "username": "Jane",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "username": "Mary",
+      "password": "1234"
+    },
+    {
+      "username": "John",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "username": "Bob",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "username": "Daisy",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "username": "Jim",
+      "password": "1234",
+      "id": 7
+    }
+  ]
 }
-  
